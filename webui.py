@@ -38,7 +38,7 @@ def inference(prompt, guidance, num_images, seed):
 
     image_grid = tile_images(image_stack)
 
-    return image_grid
+    return [image_grid] + image_stack
 
 
 app = gr.Interface(
@@ -49,7 +49,6 @@ app = gr.Interface(
         gr.Slider(1, 32, step=1),
         gr.Number(value=42),
     ],
-    outputs="image",
-
+    outputs=gr.Gallery()
 )
 app.launch()
