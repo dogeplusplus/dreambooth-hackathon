@@ -27,3 +27,13 @@ optional arguments:
                         Apply gradient checkpointing
   --use-8bit-adam       Use 8-bit adam optimizer
 ```
+
+### dreambooth-jaffa-cake
+
+Here is an example trained on images of jaffa cakes:
+
+`Prompt: A photo of a jaffa cake`
+
+| Stable Diffusion v1-4 | Dreambooth Jaffa |
+| -- | -- |
+| ![](assets/stable-jaffa.png) | ![](assets/dreambooth-jaffa.png) |
