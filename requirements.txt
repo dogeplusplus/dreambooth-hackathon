@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pillow
+einops
+torch
+torchvision
+gradio
+diffusers
+tqdm
+accelerate
+bitsandbytes
+transformers
